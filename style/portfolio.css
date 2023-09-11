@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header banner css */
+header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, 3%;
+    background-size: 780px 520px, auto;
+    height: 837px;
+    width: 1600px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+
+nav li {
+    list-style: none;
+    margin-top: 68px;
+    margin-right: 51px;
+    font-size: 20px;
+    color: var(--Dark-02, #474747);
+}
+
+nav ul {
+    display: flex;
+    margin-right: 230px;
+
+}
+
+.nav-title {
+    margin-left: 226px;
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+#style-title {
+    color: #FD6E0A;
+}
+
+.button {
+    font-size: 20px;
+    padding: 18px 36px;
+    margin-top: 50px;
+    color: var(--White-Color, #FFF);
+    border-radius: 5px;
+    background: #FD6E0A;
+    border-style: none;
+}
+
+/* header css */
+.banner {
+    display: flex;
+    align-items: center;
+    margin-left: 226px;
+}
+
+#info-description {
+    margin-right: 163px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.banner h4 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner h3 {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-button1 {
+    margin-right: 30px;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 13px 12px;
+    font-weight: 700;
+    color: var(--White-Color, #FFF);
+    border-radius: 5px;
+    background: #FD6E0A;
+    border-style: none;
+}
+
+.banner-button2 {
+    padding: 13px 12px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+/* body-about me airticle */
+.about-me {
+    width: 1140px;
+    height: 550px;
+    margin: 130px 230px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+article h2 {
+    padding-top: 130px;
+    padding-left: 485px;
+    padding-right: 485px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#about-me-description {
+    padding-left: 156px;
+    padding-right: 157px;
+}
+
+#about-me-info {
+    display: flex;
+    padding-left: 179px;
+    padding-right: 179px;
+    margin-top: 30px;
+}
+
+.article {
+    margin-right: 50px;
+
+}
+
+.info-p {
+    color: var(--Dark-03, #757575);
+}
+
+/* What I Do */
+#what-title {
+
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: 909px;
+    margin-left: 717px;
+    margin-right: 717px;
+}
+
+#what-title-description {
+    text-align: center;
+    width: 909px;
+    margin-left: 345px;
+    margin-bottom: 50px;
+}
+
+.what-i-will-do {
+    display: flex;
+
+    margin-left: 226px;
+
+}
+
+article img {
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.what-article {
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    margin-right: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.what-description {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.what-description-2 {
+    font-size: 16px;
+    font-weight: 400;
+    width: 201px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+/* My resume */
+#education {
+    margin-left: 573px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
+.my-resume {
+    display: flex;
+}
+
+.my-resume-section {
+    margin-left: 226px;
+    margin-right: 70px;
+}
+
+.resume-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.resume-sub-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-versity {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    width: 511px;
+    margin-bottom: 30px;
+}
+
+.resume-button {
+    margin-left: 751px;
+    margin-top: 50px;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 18px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border-style: none;
+    margin-bottom: 115px;
+}
+
+/* footer part */
+.footer {
+    display: flex;
+    padding-right: 230px;
+    background: #FFF8F3;
+}
+
+.footer-title {
+    padding-left: 226px;
+    padding-top: 130px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    padding-left: 226px;
+    color: var(--Dark-02, #474747);
+    margin-right: 117px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 562px;
+}
+
+.footer-img {
+    display: flex;
+    padding-left: 190px;
+}
+
+.footer-title2 {
+    padding-top: 130px;
+    margin-bottom: 28px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-input {
+    margin-bottom: 24px;
+    padding: 18px 20px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border-style: none;
+}
+
+.submit {
+    padding: 16px 39px;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border-style: none;
+}
